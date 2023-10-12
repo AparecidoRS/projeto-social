@@ -28,8 +28,14 @@ section#telefone {
     transform: translate(-50%, -50%);
 
     height: 667px;
-    width: 325px;
+    width: 311px;
     background : url('../imagens/frame-iphone.png') no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
